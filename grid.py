@@ -1,0 +1,16 @@
+from tkinter import*
+root=Tk()
+#For resolution
+root.geometry("800x200")
+root.minsize(100,20)
+root.maxsize(200,100)
+root.title("Don")
+a=Label(text="hello ace",bg="yellow",foreground="red", font=("Arial italic",100,"bold"))
+b=Label(text="hello don", bg="red",foreground="yellow",font=("Arial italic",50,"bold"))
+c=Label(text="gunace don", bg="red",foreground="yellow",font=("Arial italic",50,"bold"))
+d=Label(text="kaley ko kalo kando", bg="red",foreground="yellow",font=("Comic Sans MS",50,"bold"))
+b.pack(side="bottom")
+a.pack()
+c.pack(anchor="e")
+d.pack(side="right")
+root.mainloop()
